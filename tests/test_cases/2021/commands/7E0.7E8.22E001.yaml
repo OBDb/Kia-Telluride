@@ -11,6 +11,8 @@ test_cases:
     7E825D301608D470000
     7E826600C0000AAAAAA
   expected_values:
+    KIA_EIT: 24
+    KIA_EOT: 57.75
     KIA_INTAKE_TEMP: 24.0018
     KIA_OIL_TEMP: 57.75264
 - response: |-
@@ -22,6 +24,8 @@ test_cases:
     7E825D8015F8F477DFF
     7E826600C0000AAAAAA
   expected_values:
+    KIA_EIT: 23.25
+    KIA_EOT: 59.25
     KIA_INTAKE_TEMP: 23.25178
     KIA_OIL_TEMP: 59.25268
 - response: |-
@@ -33,6 +37,8 @@ test_cases:
     7E825D9015F8F47FFFF
     7E826600C0000AAAAAA
   expected_values:
+    KIA_EIT: 23.25
+    KIA_EOT: 59.25
     KIA_INTAKE_TEMP: 23.25178
     KIA_OIL_TEMP: 59.25268
 - response: |-
@@ -44,6 +50,8 @@ test_cases:
     7E825D101608D470000
     7E826600C0000AAAAAA
   expected_values:
+    KIA_EIT: 24
+    KIA_EOT: 57.75
     KIA_INTAKE_TEMP: 24.0018
     KIA_OIL_TEMP: 57.75264
 - response: |-
@@ -55,6 +63,8 @@ test_cases:
     7E825E5015D68477EFF
     7E82640239008AAAAAA
   expected_values:
+    KIA_EIT: 21.75
+    KIA_EOT: 30
     KIA_INTAKE_TEMP: 21.75174
     KIA_OIL_TEMP: 30.00195
 - response: |-
@@ -66,6 +76,8 @@ test_cases:
     7E825DF015E673FFFFF
     7E8262021C107AAAAAA
   expected_values:
+    KIA_EIT: 22.5
+    KIA_EOT: 29.25
     KIA_INTAKE_TEMP: 22.50176
     KIA_OIL_TEMP: 29.25193
 - response: |-
@@ -77,6 +89,8 @@ test_cases:
     7E825D8015F753F46F4
     7E826E0226C08AAAAAA
   expected_values:
+    KIA_EIT: 23.25
+    KIA_EOT: 39.75
     KIA_INTAKE_TEMP: 23.25178
     KIA_OIL_TEMP: 39.75219
 - response: |-
@@ -88,6 +102,8 @@ test_cases:
     7E825D7015F783F7DFF
     7E82660223B08AAAAAA
   expected_values:
+    KIA_EIT: 23.25
+    KIA_EOT: 42
     KIA_INTAKE_TEMP: 23.25178
     KIA_OIL_TEMP: 42.00225
 - response: |-
@@ -99,6 +115,8 @@ test_cases:
     7E825D6015F7B3F0000
     7E82600221608AAAAAA
   expected_values:
+    KIA_EIT: 23.25
+    KIA_EOT: 44.25
     KIA_INTAKE_TEMP: 23.25178
     KIA_OIL_TEMP: 44.25231
 - response: |-
@@ -110,6 +128,8 @@ test_cases:
     7E825D9015F6D3F59F8
     7E8268023A908AAAAAA
   expected_values:
+    KIA_EIT: 23.25
+    KIA_EOT: 33.75
     KIA_INTAKE_TEMP: 23.25178
     KIA_OIL_TEMP: 33.75204
 - response: |-
@@ -121,6 +141,8 @@ test_cases:
     7E825240255673BC9F4
     7E8262021C107AAAAAA
   expected_values:
+    KIA_EIT: 15.75
+    KIA_EOT: 29.25
     KIA_INTAKE_TEMP: 15.75159
     KIA_OIL_TEMP: 29.25193
 - response: |-
@@ -132,6 +154,8 @@ test_cases:
     7E8252A02546B2751F6
     7E826401A2105AAAAAA
   expected_values:
+    KIA_EIT: 15
+    KIA_EOT: 32.25
     KIA_INTAKE_TEMP: 15.00158
     KIA_OIL_TEMP: 32.25201
 - response: |-
@@ -143,6 +167,8 @@ test_cases:
     7E82523025571238ACE
     7E826A0225308AAAAAA
   expected_values:
+    KIA_EIT: 15.75
+    KIA_EOT: 36.75
     KIA_INTAKE_TEMP: 15.75159
     KIA_OIL_TEMP: 36.75212
 - response: |-
@@ -154,6 +180,8 @@ test_cases:
     7E82526025555287DFF
     7E826E023CD08AAAAAA
   expected_values:
+    KIA_EIT: 15.75
+    KIA_EOT: 15.75
     KIA_INTAKE_TEMP: 15.75159
     KIA_OIL_TEMP: 15.75159
 - response: |-
@@ -165,6 +193,8 @@ test_cases:
     7E8252402557B268ECF
     7E826802A540BAAAAAA
   expected_values:
+    KIA_EIT: 15.75
+    KIA_EOT: 44.25
     KIA_INTAKE_TEMP: 15.75159
     KIA_OIL_TEMP: 44.25231
 - response: |-
@@ -176,6 +206,8 @@ test_cases:
     7E8250602597D470000
     7E82620238408AAAAAA
   expected_values:
+    KIA_EIT: 18.75
+    KIA_EOT: 45.75
     KIA_INTAKE_TEMP: 18.75167
     KIA_OIL_TEMP: 45.75234
 - response: |-
@@ -187,6 +219,8 @@ test_cases:
     7E825040259732E9DD2
     7E826002B850BAAAAAA
   expected_values:
+    KIA_EIT: 18.75
+    KIA_EOT: 38.25
     KIA_INTAKE_TEMP: 18.75167
     KIA_OIL_TEMP: 38.25216
 - response: |-
@@ -198,6 +232,8 @@ test_cases:
     7E825450174932634D7
     7E8260027FF09AAAAAA
   expected_values:
+    KIA_EIT: 39
+    KIA_EOT: 62.25
     KIA_INTAKE_TEMP: 39.00218
     KIA_OIL_TEMP: 62.25276
 - response: |-
@@ -209,6 +245,8 @@ test_cases:
     7E82507025989300000
     7E8260029C20AAAAAAA
   expected_values:
+    KIA_EIT: 18.75
+    KIA_EOT: 54.75
     KIA_INTAKE_TEMP: 18.75167
     KIA_OIL_TEMP: 54.75257
 - response: |-
@@ -220,6 +258,8 @@ test_cases:
     7E825B70163A923FBFE
     7E8262021C107AAAAAA
   expected_values:
+    KIA_EIT: 26.25
+    KIA_EOT: 78.75
     KIA_INTAKE_TEMP: 26.25186
     KIA_OIL_TEMP: 78.75317
 - response: |-
@@ -231,6 +271,8 @@ test_cases:
     7E825FC015A772A01CD
     7E82620222208AAAAAA
   expected_values:
+    KIA_EIT: 19.5
+    KIA_EOT: 41.25
     KIA_INTAKE_TEMP: 19.50169
     KIA_OIL_TEMP: 41.25223
 - response: |-
@@ -242,6 +284,8 @@ test_cases:
     7E825FF015A63287EFF
     7E8262019B304AAAAAA
   expected_values:
+    KIA_EIT: 19.5
+    KIA_EOT: 26.25
     KIA_INTAKE_TEMP: 19.50169
     KIA_OIL_TEMP: 26.25186
 - response: |-
@@ -253,6 +297,8 @@ test_cases:
     7E825A60166B92C94EA
     7E826001FF106AAAAAA
   expected_values:
+    KIA_EIT: 28.5
+    KIA_EOT: 90.75
     KIA_INTAKE_TEMP: 28.50191
     KIA_OIL_TEMP: 90.75347
 - response: |-
@@ -264,6 +310,8 @@ test_cases:
     7E825CE0160971E60F9
     7E826E019FD04AAAAAA
   expected_values:
+    KIA_EIT: 24
+    KIA_EOT: 65.25
     KIA_INTAKE_TEMP: 24.0018
     KIA_OIL_TEMP: 65.25283
 - response: |-
@@ -275,6 +323,8 @@ test_cases:
     7E8252402557D33BFD9
     7E82680224708AAAAAA
   expected_values:
+    KIA_EIT: 15.75
+    KIA_EOT: 45.75
     KIA_INTAKE_TEMP: 15.75159
     KIA_OIL_TEMP: 45.75234
 - response: |-
@@ -286,6 +336,8 @@ test_cases:
     7E8252902545C277DFF
     7E82620222208AAAAAA
   expected_values:
+    KIA_EIT: 15
+    KIA_EOT: 21
     KIA_INTAKE_TEMP: 15.00158
     KIA_OIL_TEMP: 21.00173
 - response: |-
@@ -297,6 +349,8 @@ test_cases:
     7E8250002595C237DFF
     7E826C0242309AAAAAA
   expected_values:
+    KIA_EIT: 18.75
+    KIA_EOT: 21
     KIA_INTAKE_TEMP: 18.75167
     KIA_OIL_TEMP: 21.00173
 - response: |-
@@ -308,6 +362,8 @@ test_cases:
     7E825020259592A0000
     7E826C0225F08AAAAAA
   expected_values:
+    KIA_EIT: 18.75
+    KIA_EOT: 18.75
     KIA_INTAKE_TEMP: 18.75167
     KIA_OIL_TEMP: 18.75167
 - response: |-
@@ -319,6 +375,8 @@ test_cases:
     7E825DC015E681E0000
     7E826601EB406AAAAAA
   expected_values:
+    KIA_EIT: 22.5
+    KIA_EOT: 30
     KIA_INTAKE_TEMP: 22.50176
     KIA_OIL_TEMP: 30.00195
 - response: |-
@@ -330,6 +388,8 @@ test_cases:
     7E825CA01619B26D8F7
     7E826001E9006AAAAAA
   expected_values:
+    KIA_EIT: 24.75
+    KIA_EOT: 68.25
     KIA_INTAKE_TEMP: 24.75182
     KIA_OIL_TEMP: 68.25291
 - response: |-
@@ -341,6 +401,8 @@ test_cases:
     7E825030259601E7DFF
     7E826E01F4707AAAAAA
   expected_values:
+    KIA_EIT: 18.75
+    KIA_EOT: 24
     KIA_INTAKE_TEMP: 18.75167
     KIA_OIL_TEMP: 24.0018
 - response: |-
@@ -352,6 +414,8 @@ test_cases:
     7E825370177A729E3E0
     7E826C01F3A07AAAAAA
   expected_values:
+    KIA_EIT: 41.25
+    KIA_EOT: 77.25
     KIA_INTAKE_TEMP: 41.25223
     KIA_OIL_TEMP: 77.25313
 - response: |-
@@ -363,6 +427,8 @@ test_cases:
     7E825290254573B7EFF
     7E826C026E609AAAAAA
   expected_values:
+    KIA_EIT: 15
+    KIA_EOT: 17.25
     KIA_INTAKE_TEMP: 15.00158
     KIA_OIL_TEMP: 17.25163
 - response: |-
@@ -374,5 +440,7 @@ test_cases:
     7E8255701729D23DCF8
     7E826C01D7706AAAAAA
   expected_values:
+    KIA_EIT: 37.5
+    KIA_EOT: 69.75
     KIA_INTAKE_TEMP: 37.50214
     KIA_OIL_TEMP: 69.75294
