@@ -1,0 +1,38 @@
+command_id: 770.778.22BC09
+test_cases:
+- expected_values:
+    TELLURIDE_HL_HIGH: 0
+    TELLURIDE_HL_LOW: 0
+  response: |-
+    778100B62BC09000F0F
+    77821CC00000000AAAA
+- expected_values:
+    TELLURIDE_HL_HIGH: 0
+    TELLURIDE_HL_LOW: 1
+  response: |-
+    778100B62BC09000F0F
+    77821CC00000010AAAA
+- expected_values:
+    TELLURIDE_HL_HIGH: 0
+    TELLURIDE_HL_LOW: 1
+  response: |-
+    778100B62BC09000F0F
+    77821CC00000020AAAA
+- expected_values:
+    TELLURIDE_HL_HIGH: 0
+    TELLURIDE_HL_LOW: 1
+  response: |-
+    778100B62BC09000F0F
+    77821CC00000030AAAA
+- expected_values:
+    TELLURIDE_HL_HIGH: 1
+    TELLURIDE_HL_LOW: 0
+  response: |-
+    778100B62BC09000F0F
+    77821CC0000C000AAAA
+- expected_values:
+    TELLURIDE_HL_HIGH: 1
+    TELLURIDE_HL_LOW: 0.25
+  response: |-
+    778100B62BC09000F0F
+    77821CC0000C003AAAA
