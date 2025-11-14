@@ -24,3 +24,9 @@ test_cases:
   response: |-
     778100B62BC09000F0F
     77821CF00000030AAAA
+- expected_values:
+    TELLURIDE_HL_HIGH: 1
+    TELLURIDE_HL_LOW: 0
+  response: |-
+    778100B62BC09000F0F
+    77821CF0000C000AAAA

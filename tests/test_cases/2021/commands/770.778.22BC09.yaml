@@ -8,7 +8,7 @@ test_cases:
     778213C00000000AAAA
 - expected_values:
     TELLURIDE_HL_HIGH: 0
-    TELLURIDE_HL_LOW: 1.0
+    TELLURIDE_HL_LOW: 1
   response: |-
     778100B62BC09000F00
     778213C0000000CAAAA

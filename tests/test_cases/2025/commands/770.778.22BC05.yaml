@@ -1,0 +1,47 @@
+command_id: 770.778.22BC05
+test_cases:
+- expected_values:
+    TELLURIDE_HAZARD_SW: 0
+  response: |-
+    778100B62BC050F1224
+    778210000000000AAAA
+- expected_values:
+    TELLURIDE_HAZARD_SW: 0
+  response: |-
+    778100B62BC050F1224
+    778210000400000AAAA
+- expected_values:
+    TELLURIDE_HAZARD_SW: 64
+  response: |-
+    778100B62BC050F1224
+    778210040400000AAAA
+- expected_values:
+    TELLURIDE_HAZARD_SW: 128
+  response: |-
+    778100B62BC050F1224
+    778210080400000AAAA
+- expected_values:
+    TELLURIDE_HAZARD_SW: 160
+  response: |-
+    778100B62BC050F1224
+    7782100A0400000AAAA
+- expected_values:
+    TELLURIDE_HAZARD_SW: 192
+  response: |-
+    778100B62BC050F1224
+    7782100C0400000AAAA
+- expected_values:
+    TELLURIDE_HAZARD_SW: 208
+  response: |-
+    778100B62BC050F1224
+    7782100D0400000AAAA
+- expected_values:
+    TELLURIDE_HAZARD_SW: 224
+  response: |-
+    778100B62BC050F1224
+    7782100E0400000AAAA
+- expected_values:
+    TELLURIDE_HAZARD_SW: 240
+  response: |-
+    778100B62BC050F1224
+    7782100F0400000AAAA
