@@ -1,107 +1,71 @@
 { "commands": [
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "TELLURIDE_DOOR_RL",        "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Rear left door open?"},
-    {"id": "TELLURIDE_DOOR_FL",        "path": "Doors",     "fmt": {"bix": 34, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Front left door open?"},
-    {"id": "TELLURIDE_HANDBRAKE",      "path": "Control",   "fmt": {"bix": 35, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Handbrake engaged?"},
-    {"id": "TELLURIDE_DOOR_FR",        "path": "Doors",     "fmt": {"bix": 36, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Front right door open?"},
-    {"id": "TELLURIDE_DOOR_RR",        "path": "Doors",     "fmt": {"bix": 37, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Rear right door open?"},
-    {"id": "TELLURIDE_TRUNK",          "path": "Doors",     "fmt": {"bix": 39, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Trunk open?"},
-    {"id": "TELLURIDE_BELT_PASSENGER", "path": "Seatbelts", "fmt": {"bix": 40, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Passenger seatbelt latched?"},
-    {"id": "TELLURIDE_BELT_DRIVER",    "path": "Seatbelts", "fmt": {"bix": 41, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Driver seatbelt latched?"},
-    {"id": "TELLURIDE_BELT_PASS",      "path": "Seatbelts", "fmt": {"bix": 45, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Passenger seatbelt latched?"},
-    {"id": "TELLURIDE_BELT_DRIV",      "path": "Seatbelts", "fmt": {"bix": 46, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Driver seatbelt latched?"},
-    {"id": "TELLURIDE_HOOD",           "path": "Doors",     "fmt": {"bix": 47, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Hood latched?"},
-    {"id": "TELLURIDE_DEFOG_SW",       "path": "Climate",   "fmt": {"bix": 56, "len": 8, "max": 1, "nullmin": 0, "nullmax": 1, "unit": "noyes" }, "name": "Defogging?"}
+    {"id": "TELLURIDE_TRUNK",     "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk open?"},
+    {"id": "TELLURIDE_DOOR_FL",   "path": "Doors",     "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left door open?"},
+    {"id": "TELLURIDE_DOOR_FR",   "path": "Doors",     "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right door open?"},
+    {"id": "TELLURIDE_HANDBRAKE", "path": "Control",   "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "noyes" }, "name": "Handbrake engaged?"},
+    {"id": "TELLURIDE_DOOR_RR",   "path": "Doors",     "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right door open?"},
+    {"id": "TELLURIDE_DOOR_RL",   "path": "Doors",     "fmt": {"bix": 39, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left door open?"},
+    {"id": "TELLURIDE_BELT_PASS", "path": "Seatbelts", "fmt": {"bix": 45, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger seatbelt latched?"},
+    {"id": "TELLURIDE_BELT_DRIV", "path": "Seatbelts", "fmt": {"bix": 46, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver seatbelt latched?"},
+    {"id": "TELLURIDE_HOOD",      "path": "Doors",     "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood latched?"},
+    {"id": "TELLURIDE_DEFOG_SW",  "path": "Climate",   "fmt": {"bix": 62, "len": 1, "max": 1, "unit": "noyes" }, "name": "Defogging?"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC04"}, "freq": 1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC04"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "TELLURIDE_LOCK_FR",      "path": "Doors",        "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "scalar" }, "name": "Door lock front right"},
-    {"id": "TELLURIDE_LOCK_FL",      "path": "Doors",        "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "scalar" }, "name": "Door lock front left "},
-    {"id": "TELLURIDE_REVERSE_GEAR", "path": "Transmission", "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Reverse gear selected"},
+    {"id": "TELLURIDE_REVERSE_GEAR", "path": "Transmission", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Reverse gear selected"},
+    {"id": "TELLURIDE_LOCK_FL",      "path": "Doors",        "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front left door locked?"},
+    {"id": "TELLURIDE_LOCK_FR",      "path": "Doors",        "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front right door locked?"},
     {"id": "TELLURIDE_BELT_RM",      "path": "Seatbelts",    "fmt": {"bix": 52, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear middle seatbelt latched?"},
     {"id": "TELLURIDE_BELT_RL",      "path": "Seatbelts",    "fmt": {"bix": 53, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear left seatbelt latched?"},
     {"id": "TELLURIDE_BELT_RR",      "path": "Seatbelts",    "fmt": {"bix": 54, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear right seatbelt latched?"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
     {"id": "TELLURIDE_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC07"}, "freq": 1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC07"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_DEFOG_LIGHT", "path": "Climate", "fmt": {"bix": 40, "len": 8, "max": 1, "unit": "noyes" }, "name": "Defog light on"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC08"}, "freq": 2, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC08"}, "freq": 2, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_TURN_L", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 1, "nullmin": 0, "nullmax": 1, "unit": "noyes" }, "name": "Left turn signal on? (raw >1)"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_HL_HIGH", "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight high beam on"},
     {"id": "TELLURIDE_HL_LOW",  "path": "Lights", "fmt": {"bix": 56, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight low beam on"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00B"}, "freq": 15, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00B"}, "freq": 15, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "TELLURIDE_TP_FL",         "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5,                           "unit": "psi"     }, "name": "Front left tire pressure",          "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "TELLURIDE_TPMS_TEMP_FL",  "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 100, "min": -50,                       "sign": true, "unit": "celsius" }, "name": "Tire temperature front left"},
-    {"id": "TELLURIDE_TW_FL",         "path": "Tires", "fmt": {"bix": 56,  "len": 8, "max": 1,                                                   "unit": "noyes"   }, "name": "Tire alert front left"},
-    {"id": "TELLURIDE_FL_INVALID",    "path": "Tires", "fmt": {"bix": 62,  "len": 1, "max": 1,                                                   "unit": "noyes"   }, "name": "Front left tire reading invalid?"},
-    {"id": "TELLURIDE_TP_FR_PRE21",   "path": "Tires", "fmt": {"bix": 64,  "len": 8, "max": 51,              "div": 5,                           "unit": "psi"     }, "name": "Tire pressure front right",         "suggestedMetric": "frontRightTirePressure"},
-    {"id": "TELLURIDE_TP_FR",         "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 51,              "div": 5,                           "unit": "psi"     }, "name": "Front right tire pressure",         "suggestedMetric": "frontRightTirePressure"},
-    {"id": "TELLURIDE_TPMS_TEMP_FR",  "path": "Tires", "fmt": {"bix": 80,  "len": 8, "max": 100, "min": -50,                       "sign": true, "unit": "celsius" }, "name": "Tire temperature front right"},
-    {"id": "TELLURIDE_FR_INVALID",    "path": "Tires", "fmt": {"bix": 94,  "len": 1, "max": 1,                                                   "unit": "noyes"   }, "name": "Front right tire reading invalid?"},
-    {"id": "TELLURIDE_TW_FR",         "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 1,                                                   "unit": "noyes"   }, "name": "Tire alert front right"},
-    {"id": "TELLURIDE_TT_RR_PRE21",   "path": "Tires", "fmt": {"bix": 104, "len": 8, "max": 205, "min": -50,           "add": -50,               "unit": "celsius" }, "name": "Tire temperature rear right"},
-    {"id": "TELLURIDE_TPMS_PRESS_RR", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51,              "div": 5,                           "unit": "psi"     }, "name": "Tire pressure rear right",          "suggestedMetric": "rearRightTirePressure"},
-    {"id": "TELLURIDE_TPMS_TEMP_RR",  "path": "Tires", "fmt": {"bix": 120, "len": 8, "max": 100, "min": -50,                       "sign": true, "unit": "celsius" }, "name": "Tire temperature rear right"},
-    {"id": "TELLURIDE_RL_INVALID",    "path": "Tires", "fmt": {"bix": 126, "len": 1, "max": 1,                                                   "unit": "noyes"   }, "name": "Rear left tire reading invalid?"},
-    {"id": "TELLURIDE_TW_RR",         "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 1,                                                   "unit": "noyes"   }, "name": "Tire alert rear right"},
-    {"id": "TELLURIDE_TPMS_PRESS_RL", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51,              "div": 5,                           "unit": "psi"     }, "name": "Tire pressure rear left",           "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "TELLURIDE_RR_INVALID",    "path": "Tires", "fmt": {"bix": 158, "len": 1, "max": 1,                                                   "unit": "noyes"   }, "name": "Rear right tire reading invalid?"},
-    {"id": "TELLURIDE_TPMS_TEMP_RL",  "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 100, "min": -50,                       "sign": true, "unit": "celsius" }, "name": "Tire temperature rear left"},
-    {"id": "TELLURIDE_TW_RL",         "path": "Tires", "fmt": {"bix": 176, "len": 8, "max": 1,                                                   "unit": "noyes"   }, "name": "Tire alert rear left"},
-    {"id": "TELLURIDE_TB_FL", "path": "Tires", "name": "Tire battery front left", "fmt": {"bix": 48, "len": 8, "map": {
-          "0": { "description": ">3 V",        "value": "3V+" },
-          "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
-          "2": { "description": "2.4 - 2.7 V", "value": "2_4_2_7V" },
-          "3": { "description": "< 2.4",       "value": "2_4-" }
-        }}
-    },
-    {"id": "TELLURIDE_TB_FR", "path": "Tires", "name": "Tire battery front right", "fmt": {"bix": 88, "len": 8, "map": {
-          "0": { "description": ">3 V",        "value": "3V+" },
-          "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
-          "2": { "description": "2.4 - 2.7 V", "value": "2_4_2_7V" },
-          "3": { "description": "< 2.4",       "value": "2_4-" }
-        }}
-    },
-    {"id": "TELLURIDE_TB_RR", "path": "Tires", "name": "Tire battery rear right", "fmt": {"bix": 128, "len": 8, "map": {
-          "0": { "description": ">3 V",        "value": "3V+" },
-          "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
-          "2": { "description": "2.4 - 2.7 V", "value": "2_4_2_7V" },
-          "3": { "description": "< 2.4",       "value": "2_4-" }
-        }}
-    },
-    {"id": "TELLURIDE_TB_RL", "path": "Tires", "name": "Tire battery rear left", "fmt": {"bix": 168, "len": 8, "map": {
-          "0": { "description": ">3 V",        "value": "3V+" },
-          "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
-          "2": { "description": "2.4 - 2.7 V", "value": "2_4_2_7V" },
-          "3": { "description": "< 2.4",       "value": "2_4-" }
-        }}
-    }
+    {"id": "TELLURIDE_TP_FL",        "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Front left tire pressure",          "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "TELLURIDE_TPMS_TEMP_FL", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 205, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Front left tire temperature",       "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "TELLURIDE_FL_INVALID",   "path": "Tires", "fmt": {"bix": 62,  "len": 1, "max": 1,                                                     "unit": "noyes"   }, "name": "Front left tire reading invalid?"},
+    {"id": "TELLURIDE_TP_FR_PRE21",  "path": "Tires", "fmt": {"bix": 64,  "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Front right tire pressure",         "suggestedMetric": "frontRightTirePressure"},
+    {"id": "TELLURIDE_TT_FR",        "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 205, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Front right tire temperature",      "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "TELLURIDE_FR_INVALID",   "path": "Tires", "fmt": {"bix": 94,  "len": 1, "max": 1,                                                     "unit": "noyes"   }, "name": "Front right tire reading invalid?"},
+    {"id": "TELLURIDE_TP_RR",        "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Rear right tire pressure",          "suggestedMetric": "rearRightTirePressure"},
+    {"id": "TELLURIDE_TT_RR_PRE21",  "path": "Tires", "fmt": {"bix": 104, "len": 8, "max": 205, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear right tire temperature",       "suggestedMetric": "rearRightTireTemperature"},
+    {"id": "TELLURIDE_RR_INVALID",   "path": "Tires", "fmt": {"bix": 126, "len": 1, "max": 1,                                                     "unit": "noyes"   }, "name": "Rear right tire reading invalid?"},
+    {"id": "TELLURIDE_TP_RL",        "path": "Tires", "fmt": {"bix": 128, "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Rear left tire pressure",           "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "TELLURIDE_TT_RL",        "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 205, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear left tire temperature",        "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "TELLURIDE_RL_INVALID",   "path": "Tires", "fmt": {"bix": 158, "len": 1, "max": 1,                                                     "unit": "noyes"   }, "name": "Rear left tire reading invalid?"}
   ]},
-{ "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.25, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.25, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_TEMP_INT", "path": "Climate",  "fmt": {"bix": 40,  "len": 8, "max": 80,  "min": -40, "div": 2, "add": -40, "unit": "celsius"           }, "name": "Interior temperature"},
     {"id": "TELLURIDE_TEMP_EXT", "path": "Climate",  "fmt": {"bix": 48,  "len": 8, "max": 80,  "min": -40, "div": 2, "add": -40, "unit": "celsius"           }, "name": "Exterior temperature"},
     {"id": "TELLURIDE_VSS",      "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255,                                   "unit": "kilometersPerHour" }, "name": "Vehicle speed",        "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7C6", "rax": "7CE", "fcm1": true, "cmd": {"22": "B002"}, "freq": 5, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "7C6", "rax": "7CE", "fcm1": true, "cmd": {"22": "B002"}, "freq": 5, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "TELLURIDE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 255,                     "unit": "liters"     }, "name": "Fuel level (volume)"},
-    {"id": "TELLURIDE_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,         "div": 12.8, "unit": "volts"      }, "name": "Cluster voltage"},
-    {"id": "TELLURIDE_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 4294967295,              "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
-    {"id": "TELLURIDE_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 4294967295,              "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
+    {"id": "TELLURIDE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 127.5,      "div": 2,    "nullmax": 127.5, "unit": "liters"     }, "name": "Fuel level",          "suggestedMetric": "fuelTankLevel"},
+    {"id": "TELLURIDE_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,         "div": 12.8,                   "unit": "volts"      }, "name": "Cluster voltage"},
+    {"id": "TELLURIDE_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 4294967295,                                "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
+    {"id": "TELLURIDE_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 4294967295,                                "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7D1", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
   "signals": [
@@ -116,12 +80,12 @@
   ]},
 { "hdr": "7D1", "dbg": true, "cmd": {"22": "4000"}, "freq": 1,
   "signals": [
-    {"id": "TELLURIDE_TIRE_FL_VSS_V3", "path": "Movement", "fmt": {"bix": 48, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "TELLURIDE_TIRE_FR_VSS_V3", "path": "Movement", "fmt": {"bix": 56, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "TELLURIDE_TIRE_RL_VSS_V3", "path": "Movement", "fmt": {"bix": 64, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "TELLURIDE_TIRE_RR_VSS_V3", "path": "Movement", "fmt": {"bix": 72, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+    {"id": "TELLURIDE_TIRE_FL_VSS_V3", "path": "Movement", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "TELLURIDE_TIRE_FR_VSS_V3", "path": "Movement", "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "TELLURIDE_TIRE_RL_VSS_V3", "path": "Movement", "fmt": {"bix": 64, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "TELLURIDE_TIRE_RR_VSS_V3", "path": "Movement", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_VSS_AVG_V2",     "path": "Movement", "fmt": {"bix": 48,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Average wheel speed"},
     {"id": "TELLURIDE_TIRE_FL_VSS_V2", "path": "Movement", "fmt": {"bix": 88,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
@@ -155,19 +119,19 @@
   "signals": [
     {"id": "TELLURIDE_EOT_V2", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 215, "min": -40, "add": -4, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E001"}, "freq": 1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E001"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_IAT", "path": "Engine", "fmt": {"bix": 264, "len": 8, "max": 143.254781, "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"},
     {"id": "TELLURIDE_EOT", "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 143.254781, "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 1"},
     {"id": "TELLURIDE_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 2"},
     {"id": "TELLURIDE_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 3"},
     {"id": "TELLURIDE_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00A"}, "freq": 1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00A"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_KNOCK_RETARD_1", "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cylinder 1"},
     {"id": "TELLURIDE_KNOCK_RETARD_2", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cylinder 2"},
@@ -178,7 +142,7 @@
     {"id": "TELLURIDE_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cylinder 3"},
     {"id": "TELLURIDE_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 0.1, "dbgfilter": { "years": [2022, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 0.1, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_TURBO_BOOST", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 66.81, "min": -10,             "div": 831.55690902, "add": -12, "unit": "psi"     }, "name": "Turbo boost pressure (gauge)"},
     {"id": "TELLURIDE_WG_VOLTAGE",  "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 10,                "mul": 10,  "div": 65535,                    "unit": "volts"   }, "name": "Waste gate voltage"},
