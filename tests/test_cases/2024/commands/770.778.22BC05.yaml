@@ -11,6 +11,11 @@ test_cases:
     778100B62BC050F1224
     778210000400000AAAA
 - expected_values:
+    TELLURIDE_HAZARD_SW: 0
+  response: |-
+    778100B62BC050F1224
+    778210000480000AAAA
+- expected_values:
     TELLURIDE_HAZARD_SW: 64
   response: |-
     778100B62BC050F1224
