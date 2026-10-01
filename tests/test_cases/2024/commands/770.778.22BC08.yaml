@@ -1,0 +1,22 @@
+command_id: 770.778.22BC08
+test_cases:
+- expected_values:
+    TELLURIDE_TURN_L: null
+  response: |-
+    778100B62BC08A05790
+    77821BC0000001CAAAA
+- expected_values:
+    TELLURIDE_TURN_L: null
+  response: |-
+    778100B62BC08A05790
+    77821BC0000091CAAAA
+- expected_values:
+    TELLURIDE_TURN_L: null
+  response: |-
+    778100B62BC08A05790
+    77821BC0008011CAAAA
+- expected_values:
+    TELLURIDE_TURN_L: null
+  response: |-
+    778100B62BC08A05790
+    77821BC0800011CAAAA
