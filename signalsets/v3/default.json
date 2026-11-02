@@ -65,7 +65,7 @@
     {"id": "TELLURIDE_TEMP_EXT", "path": "Climate",  "fmt": {"bix": 48,  "len": 8, "max": 80,  "min": -40, "div": 2, "add": -40, "unit": "celsius"           }, "name": "Exterior temperature"},
     {"id": "TELLURIDE_VSS",      "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255,                                   "unit": "kilometersPerHour" }, "name": "Vehicle speed",        "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7C6", "rax": "7CE", "fcm1": true, "cmd": {"22": "B002"}, "freq": 5, "dbgfilter": { "from": 2026 },
+{ "hdr": "7C6", "rax": "7CE", "fcm1": true, "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 127.5,      "div": 2,    "nullmax": 127.5, "unit": "liters"     }, "name": "Fuel level",          "suggestedMetric": "fuelTankLevel"},
     {"id": "TELLURIDE_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,         "div": 12.8,                   "unit": "volts"      }, "name": "Cluster voltage"},
