@@ -29,7 +29,7 @@
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TELLURIDE_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
-    {"id": "TELLURIDE_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch"}
+    {"id": "TELLURIDE_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 2,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC07"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
@@ -149,11 +149,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 0.1, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "TELLURIDE_TURBO_BOOST", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 66.81,  "min": -10,              "div": 831.55690902, "add": -12,                                "unit": "psi"     }, "name": "Turbo boost pressure (gauge)"},
-    {"id": "TELLURIDE_WG_VOLTAGE",  "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 10,                  "mul": 10,  "div": 65535,                                                   "unit": "volts"   }, "name": "Waste gate voltage"},
-    {"id": "TELLURIDE_WG_DUTY",     "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 200,                 "mul": 200, "div": 65535,                                                   "unit": "percent" }, "name": "Waste gate duty"},
-    {"id": "TELLURIDE_WG_POSITION", "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 199.99, "min": -200, "mul": 400, "div": 65535,                    "sign": true, "nullmin": -200, "unit": "percent" }, "name": "Waste gate position"},
-    {"id": "TELLURIDE_WG_SETPOINT", "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 100,    "min": -200, "mul": 400, "div": 65535,                    "sign": true, "nullmin": -200, "unit": "percent" }, "name": "Waste gate setpoint"}
+    {"id": "TELLURIDE_TURBO_BOOST", "path": "Engine", "fmt": {"bix": 64,  "len": 16, "blsb": true,  "max": 66.81, "min": -10,               "div": 831.55690902, "add": -12,                                      "unit": "psi" },                             "name": "Turbo boost pressure (gauge)"},
+    {"id": "TELLURIDE_WG_VOLTAGE",  "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 10,                   "mul": 10,  "div": 65535,                                                     "unit": "volts"   },            "name": "Waste gate voltage"},
+    {"id": "TELLURIDE_WG_DUTY",     "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 200,                  "mul": 200, "div": 65535,                                                     "unit": "percent" },            "name": "Waste gate duty"},
+    {"id": "TELLURIDE_WG_POSITION", "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 199.99, "min": -200,  "mul": 400, "div": 65535,                      "sign": true, "nullmin": -200, "unit": "percent" },            "name": "Waste gate position"},
+    {"id": "TELLURIDE_WG_SETPOINT", "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 100,    "min": -200,  "mul": 400, "div": 65535,                      "sign": true, "nullmin": -200, "unit": "percent" },            "name": "Waste gate setpoint"}
   ]},
 { "hdr": "7E1", "dbg": true, "cmd": {"21": "A0"}, "freq": 1,
   "signals": [
