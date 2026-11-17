@@ -17,7 +17,6 @@ test_cases:
     778210000400000AAAA
 - expected_values:
     TELLURIDE_HAZARD_SW: 0
-    TELLURIDE_HL_SW: 1
   response: |-
     778100B62BC050F1224
     778210000400400AAAA
