@@ -20,3 +20,8 @@ test_cases:
   response: |-
     778100B62BC08005790
     77821BC0002001CAAAA
+- expected_values:
+    TELLURIDE_TURN_L: null
+  response: |-
+    778100B62BC08005790
+    77821BC0002011CAAAA
